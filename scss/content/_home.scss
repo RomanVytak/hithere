@@ -1,0 +1,25 @@
+
+.text {
+	display: flex;
+	align-items: center;
+	height: 100vh;
+	.wrapper {
+		outline: 1px solid red;
+		max-width: 600px;
+		margin: 0 auto;
+			text-align: center;
+	}
+	.buttons {
+		margin: 32px 0 0 0;
+		display: flex;
+		div {
+			width: 100px;
+			height: 100px;
+			margin: 0 8px;
+			border-radius: 100%;
+			background: #eee;
+				text-align: center;
+				line-height: 98px;
+		}
+	}
+}
